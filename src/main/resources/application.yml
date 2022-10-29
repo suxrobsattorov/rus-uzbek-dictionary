@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://ec2-54-160-200-167.compute-1.amazonaws.com:5432/de3q52dm2av23l"
+    username: "anxwmpubrqxzui"
+    password: "ed509d9f0f3947cf89b7fd899bb4dc648bbdccddb409d5654ea0b246257e0535"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+server:
+  error:
+    include-message: always
